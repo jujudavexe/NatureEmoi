@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+
+body {
+    margin: 0 auto;
+}
+
+section.top-page {
+    background: url('/./images/bg.jpg');
+    background-size: cover;
+    height: 60vh;
+    padding: 30px;
+    position: relative; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+header img {
+    width: 120px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.big-title {
+    font-family: "Abril Fatface";
+    font-weight: 100;
+    color: white;
+    font-size: 80px;
+    padding: 15px 60px;
+    max-width: 550px;
+}
+
+.scroll {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 5%;
+    padding-left: 60px;
+}
+
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 50px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 160px;
+}
+
+.delivery-icon {
+    font-size: 45px;
+    color: #ADD981;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200;
+    text-align: center;
+}

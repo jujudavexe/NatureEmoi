@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+
+.title {
+    font-size: 50px;
+    font-family: "Abril FatFace", cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.best-plants {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.best-item {
+    margin: 150px;
+}
+
+.plant-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.plant-name {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.plant-price {
+    font-weight: 900;
+    font-size: 14xp;
+    color: #ADD981;
+    line-height: 3px;
+}
+
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 550px;
+    flex: 1;
+}
+
+/* nos plantes */
+
+.all-plants {
+    margin: 150px;
+}
+
+.plant-grid {
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px);
+    gap: 10px;
+}
+
+.all-plants.border {
+    border-radius: 10px;
+}
+
+/* image plante */
+
+.plant1 {
+    background-image: url(/images/nos_meilleures_ventes/1.jpg);
+}
+
+.plant2 {
+    background-image: url(/images/nos_meilleures_ventes/2.jpg);
+}
+
+.plant3 {
+    background-image: url(/images/nos_meilleures_ventes/3.jpg);
+}
+
+.plant4 {
+    background-image: url(/images/nos_meilleures_ventes/4.jpg);
+}
+
+.plant-grid1 {
+    background-image: url(/images/nos_plantes/1.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.plant-grid2 {
+    background-image: url(/images/nos_plantes/2.jpg);
+    grid-column: 3/5;
+}
+
+.plant-grid3 {
+    background-image: url(/images/nos_plantes/3.jpg);
+    grid-column: 3/5;
+}
+
+.plant-grid4 {
+    background-image: url(/images/nos_plantes/4.jpg);
+    grid-column: 1;
+    grid-row: 3/5;
+}
+
+.plant-grid5 {
+    background-image: url(/images/nos_plantes/5.jpg);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+.plant-grid6 {
+    background-image: url(/images/nos_plantes/6.jpg);
+    grid-column: 4;
+    grid-row: 3/5;
+}
+
+/* barre verte */
+
+.title::before {
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
